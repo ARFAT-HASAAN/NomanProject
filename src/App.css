@@ -24,6 +24,73 @@
   color: white;
 }
 
+.myclass {
+  background-color: red;
+  color: white;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.LectureContainer {
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 10px;
+}
+.lectureCard {
+  /* width: 30%; */
+  margin-bottom: 20px;
+  box-shadow: 1px 1px 1px black;
+}
+
+.lectureCard img {
+  width: 100%;
+}
+.lectureCard button {
+  background-color: red;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 2px;
+  font-weight: bold;
+  text-align: center;
+  margin: 20px;
+  padding: 12px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn {
+  background-color: red;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 2px;
+  font-weight: bold;
+  text-align: center;
+  margin: 20px;
+  padding: 12px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+.card {
+  background-color: #7097ab;
+  padding: 20px;
+  text-align: center;
+  line-height: 2rem;
+  box-shadow: 1px 1px 3px black;
+  border-radius: 15px 0px 15px 0px;
+}
 .App-link {
   color: #61dafb;
 }
